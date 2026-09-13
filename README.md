@@ -66,9 +66,13 @@ Verify npm version:
 
 ## Installing the node modules for BabyTimeMapper
 Once you have Node.js installed you'll need to install the node files needed to run the program.
-**Navigate in your shell to the repo where you 
-To install what you need, the command is:
+You must do the BabyTimeMapper installation in your local fork/copy of this repo. 
+**Navigate in your shell to your local fork of this BabyTimMapper repo.**
+
+When you're in the correct location, to install what you need use this command:
 ```npm install```
+
+This command reads the package.json file in BabyTimeMapper and tells Node.JS what libraries need to be installed to build the BabyTimeMapper web application.
 
 ## The folder structure of BabyTimeMapper
 ```
