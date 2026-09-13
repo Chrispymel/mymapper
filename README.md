@@ -1,9 +1,11 @@
 # WELCOME TO BabyTimeMapper
 BabyTimeMapper is a program that is directly based off of [Timemapper](https://github.com/okfn/timemapper) by [okfn](https://github.com/okfn) (Open Knowledge Foundation) but updated to be stylized and run smoother with local based data input. 
 
-You can run this program through GitHub cloning or you can download the zipped directory if gitclone isnt available to you.
-
-For those looking to use the GitHub based method, you can follow these steps to do so!
+You can run this program through GitHub cloning or you can download the zipped directory if git clone isnt available to you. For those looking to use the GitHub based method, you can follow these steps to do so!
+## To make your own timemaps: fork this repo!
+* Please fork the repo to your own GitHub account
+* Then working with your fork, use the `git clone`command (in the form of `git clone <Address of your fork>` to access the repo 
+in your own space.
 
 # BabyTimeMapper Crash Course!
 
@@ -63,7 +65,9 @@ Verify npm version:
 **You can also go to https://nodejs.org/en/download/current and download a prebuilt Node.js**
 
 ## Installing the node modules for BabyTimeMapper
-Once you have Node.js installed you'll need to install the node files needed to run the program, the command is:
+Once you have Node.js installed you'll need to install the node files needed to run the program.
+**Navigate in your shell to the repo where you 
+To install what you need, the command is:
 ```npm install```
 
 ## The folder structure of BabyTimeMapper
