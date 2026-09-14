@@ -376,8 +376,18 @@ function buildTimelineSVG(events, onSelect) {
   const rulerHeight = 220
 
   const years = events.map(e => e.astronomicalYear)
+  const yearsEnd = events.map(e => e.astronomicalYearEnd)
   const earliestDate = Math.min(...years)
-  const latestDate   = Math.max(...years)
+  const latestDate = Math.max(...years)
+
+  if (yearsEnd.length>0) {
+    const latestDate = Math.max(...years)
+    console.log("works")
+  }
+  else {
+    const latestDateEnd = Math.max(...yearsEnd)
+  }
+
   const padding    = 100
   const rulerWidth = (latestDate - earliestDate) * xSpacer + padding * 2
   const translateX = Math.abs(earliestDate) * xSpacer + 140
