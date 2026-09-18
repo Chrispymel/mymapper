@@ -1,0 +1,49 @@
+start = element xml {
+	source,
+	poem
+}
+
+source = element source {
+	title, 
+	author,
+	date
+}
+
+poem = element poem {
+	title,
+	lg*
+}
+
+title = element title {
+	attribute level { text },
+	text
+}
+
+author = element author {
+	text
+}
+
+date = element date {
+	attribute n { text }
+}
+
+lg = element lg {
+    ln*
+}
+
+
+ln = element ln {
+	attribute n { text }, 
+	mixed {
+	(place | motif)*
+	}
+}
+
+place = element place { 
+	attribute ref { text },
+	text
+}
+
+motif = element motif {
+	text
+}
