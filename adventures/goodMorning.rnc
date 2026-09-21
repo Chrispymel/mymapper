@@ -1,3 +1,8 @@
+
+
+datatypes xsd = "https://www.w3.org/2001/XMLSchema-datatypes"
+
+
 start = element xml {
 	source,
 	poem
@@ -15,7 +20,7 @@ poem = element poem {
 }
 
 title = element title {
-	attribute level { text },
+	attribute level { "book" | "inner" },
 	text
 }
 
@@ -24,7 +29,7 @@ author = element author {
 }
 
 date = element date {
-	attribute n { text }
+	attribute n { xsd:gYear }
 }
 
 lg = element lg {
@@ -33,14 +38,19 @@ lg = element lg {
 
 
 ln = element ln {
-	attribute n { text }, 
+	attribute n { xsd:positiveInteger },
 	mixed {
-	(place | motif)*
+	(place | placeName | motif)*
 	}
 }
 
 place = element place { 
-	attribute ref { text },
+	attribute ref { xsd:string },
+	text
+}
+
+placeName = element place {
+	attribute ref { xsd:string },
 	text
 }
 
