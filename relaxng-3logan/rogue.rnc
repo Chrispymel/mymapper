@@ -5,6 +5,7 @@ start = element games {
 }
 
 game = element game {
+    patternName,
     title,
     genre,
     year,
@@ -20,9 +21,16 @@ genre = element genre {
 }
 
 year = element year {
-    xsd:integer
+    xsd:gYear
+}
+
+patternName = element name {
+	text
 }
 
 rating = element rating {
-    xsd:integer
+    xsd:integer {
+	minInclusive = "1",
+	maxInclusive = "10"
+	}
 }
