@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-model href="rogue.rnc" type="application/relax-ng-compact-syntax"?>
 <games>
     <game>
+	<name>Stardew Valley</name>
         <title>Stardew Valley</title>
         <genre>Simulation</genre>
         <year>2016</year>
@@ -9,6 +10,7 @@
     </game>
 
     <game>
+	<name>The Binding of Isaac</name>
         <title>The Binding of Isaac</title>
         <genre>Roguelike</genre>
         <year>2011</year>
@@ -16,6 +18,7 @@
     </game>
 
     <game>
+	<name>God of War Ragnarok</name>
         <title>God of War Ragnarok</title>
         <genre>Action</genre>
         <year>2022</year>
