@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<games>
+    <game>
+        <title>Stardew Valley</title>
+        <genre>Simulation</genre>
+        <year>2016</year>
+        <rating>10</rating>
+    </game>
+
+    <game>
+        <title>The Binding of Isaac</title>
+        <genre>Roguelike</genre>
+        <year>2011</year>
+        <rating>9</rating>
+    </game>
+
+    <game>
+        <title>God of War Ragnarok</title>
+        <genre>Action</genre>
+        <year>2022</year>
+        <rating>10</rating>
+    </game>
+</games>

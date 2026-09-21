@@ -1,0 +1,28 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = element games {
+    game*
+}
+
+game = element game {
+    title,
+    genre,
+    year,
+    rating
+}
+
+title = element title {
+    text
+}
+
+genre = element genre {
+    text
+}
+
+year = element year {
+    xsd:integer
+}
+
+rating = element rating {
+    xsd:integer
+}
