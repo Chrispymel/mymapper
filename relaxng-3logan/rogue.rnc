@@ -30,7 +30,7 @@ patternName = element name {
 
 rating = element rating {
     xsd:integer {
-	minInclusive = "1",
+	minInclusive = "1"
 	maxInclusive = "10"
 	}
 }
