@@ -1,0 +1,38 @@
+
+
+<?xml-model href="gow.rnc" type="application/relax-ng-compact-syntax"?>
+
+<characters>
+	<character>
+
+	<name>
+		Kratos
+	</name>
+
+	<game>
+		God Of War
+	</game>
+
+	<role>
+		Protagonist
+	</role>
+	
+	<weapons>
+		Levaiathon Axe
+		Chaos Blades
+	</weapons>
+		
+	<description>
+		Kratos is the main character in 
+		<title> 
+			God Of War 
+		</title> 
+		and uses several different weapons
+			
+	</description>
+	
+	<releaseDate>
+		2018-04-20
+	</releaseDate>
+	</character>
+</characters>

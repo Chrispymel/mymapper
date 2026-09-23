@@ -1,0 +1,41 @@
+description = element description 
+{
+	mixed {
+	element title {
+	text
+	}
+       }
+}
+name = element name 
+{
+	xsd:string
+}
+
+start = element characters
+{
+
+element character {
+	name,
+
+element game
+{
+	xsd:string
+},
+
+element role
+{
+	xsd:token
+},
+
+element weapons
+{
+	xsd:string
+},
+
+description,
+element releaseDate
+  {
+	xsd:date
+  }
+ }+
+}
