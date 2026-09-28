@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
+<events>
+ <track type="1" name="early">
+  <event>
+    <title>Logan's first day of school</title>
+    <date type="start">
+      <year>2010</year>
+      <month>08</month>
+      <era>New</era>
+    </date>
+    <date type="end">
+      <year>2016</year>
+      <month>06</month>
+      <era>New</era>
+    </date>
+    <description>This was the years of when I started Elementary school and finished Robison Elementary</description>
+    <lat>51.1789</lat>
+    <lon>1.1713</lon>
+  </event>
+
+  <event>
+    <title>Middle School</title>
+    <date type="start">
+      <year>2017</year>
+      <month>09</month>
+      <era>New</era>
+    </date>
+    <date type="end">
+    <year>2021</year>
+    <month>06</month>
+    <era>New</era>
+    </date>
+    <description>This marked the beginning of my journey into my dreams and desires for an early rising</description>
+    <lat>38.9419</lat>
+    <lon>20.7400</lon>
+  </event>
+  </track>
+ 
+ <track type="2" name="mid">
+  <event>
+    <title>High School Era</title>
+    <date type="start">
+      <year>2021</year>
+      <month>08</month>
+      <era>New</era>
+    </date>
+    <date type="end">
+    <year>2024</year>
+    <month>06</month>
+    </date>
+    <description>The final obstacle before reaching the end of my giant school journey before college</description>
+    <lat>48.8533</lat>
+    <lon>2.3692</lon>
+  </event>
+ 
+  <event>
+    <title>College Life pt.1</title>
+    <date type="start">
+      <year>2024</year>
+      <month>08</month>
+      <era>New</era>
+    </date>
+    <date type="end">
+    <year>2025</year>
+    <month>05</month>
+    <era>New</era>
+    </date>
+    <description>This marks the journey to reaching the end of the road before finding my true career starts now</description>
+    <lat>48.8566</lat>
+    <lon>2.3522</lon>
+  </event>
+ 
+  <event>
+    <title>College Life pt.2</title>
+    <date type="start">
+      <year>2025</year>
+      <month>08</month>
+      <era>New</era>
+    </date>
+    <date type="end">
+    <year>2026</year>
+    <month>05</month>
+    </date>
+    <description>This is where the weight of reality hits in to make me start to realize the actual responsibility of college and into your future career</description>
+    <lat>48.8656</lat>
+    <lon>2.3212</lon>
+  </event>
+ </track>
+
+<track type="3" name="late">
+  <event>
+    <title>Outside college life</title>
+    <date type="start">
+      <year>2024</year>
+      <month>01</month>
+      <era>New</era>
+    </date>
+    <date type="end">
+      <year>2026</year>
+      <month>12</month>
+      <era>New</era>
+    </date>
+    <description>The struggle from being in college compared to not being in college honestly makes you feel less productive except working constantly and driving over 50% of the time spending time with friends, video games and etc. </description>
+    <lat>48.8530</lat>
+    <lon>2.3499</lon>
+  </event>
+ </track>
+</events>
