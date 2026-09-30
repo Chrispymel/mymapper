@@ -1,14 +1,27 @@
+
+
 start = element events {
 	track*
 }
 
-track = element event {
+track = element track {
+attribute type { text },
+
+attribute name { text },
+
+event*
+}
+
+event = element event {
 	title,
+	date,
 	date,
 	description,
 	lat,
 	lon
 }
+
+
 
 title = element title {
 	text

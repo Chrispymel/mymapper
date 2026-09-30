@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
+<?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
  <track type="1" name="early">
   <event>
@@ -48,6 +48,7 @@
     <date type="end">
     <year>2024</year>
     <month>06</month>
+    <era>new</era>
     </date>
     <description>The final obstacle before reaching the end of my giant school journey before college</description>
     <lat>48.8533</lat>
@@ -81,6 +82,7 @@
     <date type="end">
     <year>2026</year>
     <month>05</month>
+    <era>New</era>
     </date>
     <description>This is where the weight of reality hits in to make me start to realize the actual responsibility of college and into your future career</description>
     <lat>48.8656</lat>
